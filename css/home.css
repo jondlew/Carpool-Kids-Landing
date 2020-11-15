@@ -1,0 +1,251 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.header-image {
+    background: #fff url("../img/street_blurred.jpg") center center no-repeat;
+    min-width: 768px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+
+.header-image .header-image-overlay {
+    padding: 10% 0 4% 45%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-image .header-image-overlay .phone {
+    height: 592px;
+    width: 400px;
+    background-image: url("../img/hand.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    bottom: -60px;
+    margin-left: -425px;
+}
+
+.header-image .header-image-overlay .androidAvailable {
+    height: 178px;
+    width: 196px;
+    background-image: url("../img/android_available@2x.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    bottom: 300px;
+    margin-left: 225px;
+}
+
+.header-image .header-image-overlay .androidAvailableMobile {
+    height: 67px;
+    width: 75px;
+    background-image: url("../img/android_available@2x.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    bottom: 135px;
+    margin-left: 115px;
+}
+
+.navbar {
+    min-height: 50px;
+}
+
+.navbar-nav > li > a.signup {
+   padding-top:10px;
+   padding-bottom: 0px;
+   padding-left:5px;
+   padding-right:0px;
+}
+.hero-text {
+    font-size:350%;
+    line-height: 95%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 3px 7px rgba(0, 0, 0, .9);
+}
+
+.hero-subtext {
+    font-size:150%;
+    line-height: 125%;
+    margin-bottom: 20px
+}
+
+.bodyText {
+    font-size:110%;
+}
+
+.lead {
+    color: #747474;
+}
+
+.modal-dialog {
+    width:350px;
+}
+
+.modal-dialog .signup {
+    width:425px;
+}
+
+.modal-content .form-group {
+    width: 302px;
+}
+
+.modal-content .form-control {
+    width:302px;
+}
+
+label.error {
+    font-size: 110%;
+    color:#f5f5f5;
+    text-shadow: 1px 1px #6e6e6e;
+    margin-top:-10px;
+    margin-bottom:15px;
+
+}
+
+.modal-content {
+    background-color: rgb(20, 156, 130);
+    background: -webkit-linear-gradient(top, rgb(20, 156, 130) 0%, rgb(27, 209, 174) 100% );
+    background: -moz-linear-gradient(top, rgb(20, 156, 130) 0%, rgb(27, 209, 174) 100% );
+}
+
+.app-images {
+    background-image: url("../img/screenshots.png");
+    width: 788px;
+    height: 1191px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    background-position: center bottom;
+    margin-top: 40px;
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5) {
+    .header-image .header-image-overlay .phone {
+        background-image: url("../img/hand@2x.png");
+    }
+
+    .app-images {
+        background-image: url("../img/screenshots.png");
+        background-repeat: no-repeat;
+        width: 788px;
+        height: 1191px;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+        background-position: center bottom;
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width : 414px), only screen and (min--moz-device-pixel-ratio: 1.5) and (max-width : 414px)  {
+    .header-image .header-image-overlay .phone {
+        background-image: url("../img/hand@2x.png");
+        -webkit-background-size: 160px;
+        -moz-background-size: 160px;
+        background-size: 160px;
+        margin-bottom: 45px;
+        margin-left: -425px;
+    }
+
+    .app-images {
+        background-image: url("../img/screenshots.png");
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 264px;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+        background-position: center bottom;
+        margin-top: 30px;
+    }
+
+    .header-image {
+        background: #fff url("../img/street_blurred.jpg") center center no-repeat;
+        min-width: 320px;
+        min-height:200px;
+    }
+
+
+    .hero-text {
+        font-size:150%;
+        line-height: 110%;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-shadow: 2px 3px 5px rgba(0, 0, 0, .9);
+    }
+
+    .lead {
+        color:white;
+        background-color: darkgray;
+        padding:10px;
+        padding-bottom: 15px;
+        -webkit-border-radius: 5px;
+    }
+}
+
+
+
+.form-signin {
+    max-width: 325px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-signin  .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+    border-color: #f8ca39
+
+
+}
+.form-signin input[type="email"], input[type="password"], input[type="text"] {
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    letter-spacing: -.040em;
+}
+
+h3 {
+    letter-spacing: -.045em;
+}
+
+.lead {
+    letter-spacing: -.025em;
+}
+
