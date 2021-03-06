@@ -48,6 +48,21 @@ body {
     margin-left: 225px;
 }
 
+
+.header-image .header-image-overlay .androidAvailableMedium {
+  height: 134px;
+  width: 147px;
+  background-image: url("../img/android_available@2x.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  position: absolute;
+  bottom: 300px;
+  margin-left: 225px;
+}
+
 .header-image .header-image-overlay .androidAvailableMobile {
     height: 67px;
     width: 75px;
