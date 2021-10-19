@@ -174,7 +174,7 @@ label.error {
 
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width : 850px), only screen and (min--moz-device-pixel-ratio: 1.5) and (max-width : 414px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width : 850px), only screen and (min--moz-device-pixel-ratio: 1.5) and (max-width : 850px) {
   .app-images {
     background-image: url("../img/screenshots.png");
     background-repeat: no-repeat;
