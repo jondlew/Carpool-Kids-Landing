@@ -155,7 +155,7 @@ label.error {
 
 
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5) {
+@media only screen and (min-resolution: 1.5dppx){
     .header-image .header-image-overlay .phone {
         background-image: url("../img/hand@2x.png");
     }
@@ -174,7 +174,11 @@ label.error {
 
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width : 850px), only screen and (min--moz-device-pixel-ratio: 1.5) and (max-width : 850px) {
+
+
+
+
+@media only screen and (min-resolution: 1.5dppx) and (max-width : 850px) {
   .app-images {
     background-image: url("../img/screenshots.png");
     background-repeat: no-repeat;
@@ -189,7 +193,7 @@ label.error {
 
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width : 420px), only screen and (min--moz-device-pixel-ratio: 1.5) and (max-width : 420px)  {
+@media only screen and (min-resolution: 1.5dppx) and (max-width : 430px)  {
     .header-image .header-image-overlay .phone {
         background-image: url("../img/hand@2x.png");
         -webkit-background-size: 160px;
@@ -233,6 +237,102 @@ label.error {
         padding-bottom: 15px;
         -webkit-border-radius: 5px;
     }
+}
+
+@media only screen and (min-resolution: 1.5dppx) and (min-width : 430px) and (max-width: 600px)  {
+  .header-image .header-image-overlay .phone {
+    background-image: url("../img/hand@2x.png");
+    -webkit-background-size: 200px;
+    -moz-background-size: 200px;
+    background-size: 200px;
+    margin-bottom: 20px;
+    margin-left: -425px;
+  }
+
+  .app-images {
+    background-image: url("../img/screenshots.png");
+    background-repeat: no-repeat;
+    height: 390px;
+    width: 300px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    background-position: center bottom;
+    margin-top: 30px;
+  }
+
+  .header-image {
+    background: #fff url("../img/street_blurred.jpg") center center no-repeat;
+    min-width: 430px;
+    min-height:220px;
+  }
+
+
+  .hero-text {
+    font-size:200%;
+    line-height: 110%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, .9);
+  }
+
+  .lead {
+    color:white;
+    background-color: darkgray;
+    padding:10px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 5px;
+  }
+}
+
+@media only screen and (min-resolution: 1.5dppx) and (min-width : 600px) and (max-width: 770px)  {
+  .header-image .header-image-overlay .phone {
+    background-image: url("../img/hand@2x.png");
+    -webkit-background-size: 260px;
+    -moz-background-size: 280px;
+    background-size: 260px;
+    margin-bottom: 0px;
+    margin-left: -425px;
+  }
+
+  .app-images {
+    background-image: url("../img/screenshots.png");
+    background-repeat: no-repeat;
+    height: 455px;
+    width: 350px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    background-position: center bottom;
+    margin-top: 30px;
+  }
+
+  .header-image {
+    background: #fff url("../img/street_blurred.jpg") center center no-repeat;
+    min-width: 600px;
+    min-height:250px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+  }
+
+
+  .hero-text {
+    font-size:250%;
+    line-height: 115%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, .9);
+  }
+
+  .lead {
+    color:white;
+    background-color: darkgray;
+    padding:10px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 5px;
+  }
 }
 
 
